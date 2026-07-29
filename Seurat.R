@@ -94,18 +94,19 @@ DimPlot(combined, reduction = "umap", label = TRUE)
 
 ncol(combined) # 15,477
 
-combined_05 <- BuildClusterTree(combined)
+combined <- BuildClusterTree(combined)
 PlotClusterTree(combined)
 
-#saveRDS(combined, "combined_05.RDS")
-combined_05 <- readRDS("combined_05.RDS")
+combined <- JoinLayers(combined)
 
-expr_matrix <- GetAssayData(combined_05, slot = "counts") 
+saveRDS(combined, "combined.RDS")
+
+expr_matrix <- GetAssayData(combined, slot = "counts") 
 genes_expressed <- rownames(expr_matrix)[Matrix::rowSums(expr_matrix) > 0] # 13,651 genes expressed
 writeLines(genes_expressed, "expressed_genes.txt") # need the expressed genes as the background for the GO enrichment analysis
 
 #### Determine marker genes ----
-cluster_markers05 <- FindAllMarkers(combined_05, only.pos = TRUE, min.pct = 0.10, logfc.threshold = 0.5) 
+cluster_markers05 <- FindAllMarkers(combined, only.pos = TRUE, min.pct = 0.10, logfc.threshold = 0.5) 
 cluster_markers05 <- dplyr::filter(cluster_markers05, p_val_adj < 0.05)
 
 # Check function marker genes
@@ -114,8 +115,7 @@ colnames(cpb_anno)[1] <- "gene"
 
 anno_cluster_markers <- left_join(cluster_markers05, cpb_anno, by="gene")
 
-#write.table(anno_cluster_markers, "cluster_markers_res05_pct010_logfc050.txt", sep = "\t", quote=FALSE, row.names=FALSE)
-anno_cluster_markers <- read.table("cluster_markers_res05_pct010_logfc050.txt", sep="\t", stringsAsFactors=FALSE, header=TRUE, quote="")
+write.table(anno_cluster_markers, "cluster_markers_res05_pct010_logfc050.txt", sep = "\t", quote=FALSE, row.names=FALSE)
 
 top10_markers <- anno_cluster_markers %>%
   dplyr::filter(pct.1 >= 0.2) %>%
