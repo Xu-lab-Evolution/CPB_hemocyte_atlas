@@ -1,0 +1,26 @@
+Gene name	Annotation symbol	Flybase ID	CPB Orthofinder	CPB gene	marker of	ref	marker gene res01 (7 clusters)	log2fold	p-val
+vav guanine-nucleotide exchange factor (Vav)	CG7893	FBgn0040068	LdNA_2275	LdNA_2275	crystal cells	Fu et al. 2020 (Fig S6)	no		
+Ninjurin B (NijB)	CG11637	FBgn0036822	LdNA_20918 and LdNA_20919	LdNA_20919	crystal cells	Fu et al. 2020 (Fig S6)	cluster 5 and 3	3.1 and 1.31	
+Sulfotransferase 3 (St3)	CG44167	FBgn0265052	LdNA_14658	LdNA_14658	crystal cells	Fu et al. 2020 (Fig S6)	no		
+Lozenge (Lz)	CG1689	FBgn0002576	LdNA_23212, LdNA_23216, LdNA_24048 and LdNA_24052	LdNA_23216 and LdNA_24048	crystal cells	Cattenoz et al 2021 Front Cell Dev Biol	none		
+Pebbled (Peb)	CG12212	FBgn0003053	LdNA_21401	LdNA_21401	crystal cells	Cattenoz et al 2021 Front Cell Dev Biol	no		
+Prophenoloxidases 1 (PPO1)	CG42639	FBgn0283437	no	The phenoloxydase of the CPB are ortholog with prophenol oxydase 2 (LdNA_34019: 62.3% ident and LdNA_34021: 62.8% ident) against 48.2% and 48.1% respectively with prophenoloxidases 1 	crystal cells	Cattenoz et al 2021 Front Cell Dev Biol			
+Prophenoloxidases 2 (PPO2)	CG8193	FBgn0033367	LdNA_31050, LdNA_34019, LdNA_34021	LdNA_31050, LdNA_34019, LdNA_34021	crystal cells	Cattenoz et al 2021 Front Cell Dev Biol	"LdNA_34019  in cluster 2, 5 and 5; LdNA_34021 in cluster 2 and 5"		
+Vav guanine-nucleotide exchange factor (Vav)	?				lamellocytes	Fu et al. 2020 (Fig S6)			
+short stop (shot)	CG18076	FBgn0013733	LdNA_27779	LdNA_27779	lamellocytes	Fu et al. 2020 (Fig S6)	no		
+methuselah-like 4 (mthl4)	CG6536	FBgn0034219	no	first blast is LdNA_19933 with ident of only 25.4%	lamellocytes	Fu et al. 2020 (Fig S6)			
+Prophenoloxidase 3 (PPO3)	CG42640	FBgn0261363	no	The phenoloxydase of the CPB are ortholog with prophenol oxydase 2 (LdNA_34019: 62.3% ident and LdNA_34021: 62.8% ident) against 52.8% and 54.1% respectively with prophenoloxidases 3	lamellocytes	Cattenoz et al 2021 Front Cell Dev Biol			
+kinase Misshapen (Msn)	CG16973	FBgn0010909	LdNA_11835	LdNA_11835	lamellocytes	Cattenoz et al 2021 Front Cell Dev Biol	no		
+integrins Myospheroid (Mys, Integrin beta or L4)	CG1560	FBgn0004657	LdNA_4557	LdNA_4557	lamellocytes	Cattenoz et al 2021 Front Cell Dev Biol	no		
+Integrin alphaPS4 subunit (ItgaPS4 or L5)	CG16827	FBgn0034005	no	first blast is LdNA_29774 (24.2% ident)	lamellocytes	Cattenoz et al 2021 Front Cell Dev Biol			
+actin binding protein Cheerio (Cher, L5)	CG3937	FBgn0014141	LdNA_13684	LdNA_13684	lamellocytes	Cattenoz et al 2021 Front Cell Dev Biol	no		
+glycosylphosphatidylinositol (GPI)-anchored protein Atilla (L1)	CG6579	FBgn0032422	no	first match with LdNA_13997, only 22.4% ident	lamellocytes	Cattenoz et al 2021 Front Cell Dev Biol			
+transmembrane receptors Nimrod C1 (NimC1)	CG8942	FBgn0259896	no	first match is LdNA_18345, ortholog of NimrodB2 and B3	plasmatocytes	Cattenoz et al 2021 Front Cell Dev Biol			
+Eater	CG6124	FBgn0243514	no	no ortholog, the closest is LdNA_18345 (38.0% id), the ortholog of NimrodB2 and B3	plasmatocytes	Cattenoz et al 2021 Front Cell Dev Biol			
+Hemese (He)	CG31770	FBgn0028430	no	several genes with low score and percentage identity, first one is LdNA_6326 with 27% ident	plasmatocytes / all hemocytes in larvae	Cattenoz et al 2021 Front Cell Dev Biol, Kurucz et al 2003 PNAS			
+Croquemort (Crq)	CG4280	FBgn0015924	LdNA_9287	LdNA_9287	plasmatocytes	Cattenoz et al 2021 Front Cell Dev Biol	no		
+fascin Singed (Sn)	CG32858	FBgn0003447	LdNA_14149	LdNA_14149	plasmatocytes	Cattenoz et al 2021 Front Cell Dev Biol	no		
+Hemolectin (Hml)	CG7002	FBgn0029167	LdNA_10160	LdNA_10160	plasmatocytes	Cattenoz et al 2021 Front Cell Dev Biol	cluster 3	6,78	
+Peroxidasin (Pxn)	CG12002	FBgn0011828	LdNA_32017	LdNA_32017	plasmatocytes	Cattenoz et al 2021 Front Cell Dev Biol	no		
+Collagen type IV alpha 1 (Col4a1)	CG4145	FBgn0000299	LdNA_3296	LdNA_3296	plasmatocytes	Cattenoz et al 2021 Front Cell Dev Biol	no		
+Serpent (Srp)	CG3992	FBgn0003507	no	no match with annotation, but still 57.5 with LdNA_7175	hemocytes	Fu et al. 2020 (Fig S3)			
